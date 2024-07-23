@@ -1,0 +1,66 @@
+>>> ''' Concatenation '''
+' Concatenation '
+>>> a = 'ztna'
+>>> a
+'ztna'
+>>> a+a
+'ztnaztna'
+>>> a+a+a
+'ztnaztnaztna'
+>>>
+>>> ''' Repetition '''
+' Repetition '
+>>>
+>>> a * a * a
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: can't multiply sequence by non-int of type 'str'
+>>> a * a
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: can't multiply sequence by non-int of type 'str'
+>>> a * 3
+'ztnaztnaztna'
+>>>
+>>> len(a)
+4
+>>>
+>>> ''' length'''
+' length'
+>>>
+>>> ''' indexing '''
+' indexing '
+>>>
+>>>
+>>> a[2]
+'n'
+>>> a(1)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'str' object is not callable
+>>> a{1}
+  File "<stdin>", line 1
+    a{1}
+     ^
+SyntaxError: invalid syntax
+>>>
+>>> ''' slcing'''
+' slcing'
+>>> a[0:2]
+'zt'
+>>> a[0:2:1]
+'zt'
+>>> a[0:2:2]
+'z'
+>>> a*3[0:2:2]
+<stdin>:1: SyntaxWarning: 'int' object is not subscriptable; perhaps you missed a comma?
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'int' object is not subscriptable
+>>>
+>>> a = "ztnatest"
+>>> a[0:2:2]
+'z'
+>>> a[0:4:2]
+'zn'
+>>>
